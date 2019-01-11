@@ -2,10 +2,10 @@
   "name": "song-book-index2",
   "version": "1.0.0",
   "description": "Description ",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/Foyin/song-book-index2#readme",
   "dependencies": {
-    "sqlite3": "^4.0.4"
+    "sqlite3": "^4.0.4",
+    "express":"*",
+    "body-parser":"*",
+    "bcrypt": "^0.8.5"
   }
 }
