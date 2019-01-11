@@ -25,5 +25,8 @@
     "express":"*",
     "body-parser":"*",
     "bcrypt": "^0.8.5"
+  },
+  "engines": {
+    "node": "10.15.0"
   }
 }
